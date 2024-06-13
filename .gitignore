@@ -1,1 +1,9 @@
-.terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0/windows_386/terraform-provider-aws_v4.67.0_x5.exe
+# Ignorar o diretório .terraform
+.terraform/
+
+# Ignorar arquivos grandes que excedem o limite do GitHub
+*.exe
+*.zip
+*.tar.gz
+
+# Adicione outros tipos de arquivo grandes conforme necessário
