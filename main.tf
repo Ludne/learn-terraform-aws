@@ -30,7 +30,7 @@ resource "aws_instance" "app_server_new" {
   vpc_security_group_ids = ["sg-0ff74239badc89625"]
 
   tags = {
-    Name = "EC2-TERRAFORM-WEB"
+    Name = "EC2-WEB-SERVER"
 
 
   }
